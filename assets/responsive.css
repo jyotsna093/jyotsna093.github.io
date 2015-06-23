@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----start-responsive design-----*/
+@media only screen and (max-width:1680px) and (min-width:1440px) {
+	.container {
+	height:auto;
+	width: 100%;
+	margin:0px 0px 0px 0px;
+	background-color:#FFF;
+	}
+	header {
+	height: 80px;
+	width: 100%;
+	}
+
+}
+@media only screen and (max-width:1440px) and (min-width:1366px) {
+	header {
+	height: 78px;
+	width: 100%;
+	}
+	
+
+}
+@media only screen and (max-width:1366px) and (min-width:1280px) {
+	header {
+	height: 78px;
+	width: 100%;
+	}
+	
+	
+}
+@media only screen and (max-width:1280px) and (min-width:1024px) {
+	#about
+	{ 
+	margin-left:120px;
+	color:#999;
+	font-size:18px;
+	line-height:24px;
+	font-family:myFirstFont2;
+
+	}
+		.logoicon {
+	height: 100px;
+	/*width: 100%;*/
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	margin-right: 0px;
+}
+
+
+}	
+
+@media only screen and (max-width:1024px) and (min-width:768px) {
+	.container {
+	height:auto;
+	width: 100%;
+	margin:0px 0px 0px 0px;
+	background-color:#FFF;
+	}
+	header {
+	height: 76px;
+	width: 100%;
+	}
+	#title{ font-size:44px;
+			font-family:;
+	         color:#333;
+			 text-align:center; 
+			 padding-top:30px;
+			 font-family:myFirstFont;
+			}
+		.aboutvoyage {
+	width: 90%;
+	height:440px;
+	margin-top:20px
+}
+	#about
+	{ 
+	margin-left:80px;
+	color:#999;
+	font-size:18px;
+	line-height:24px;
+	font-family:myFirstFont2;
+
+	}
+
+
+	
+}
+@media only screen and (max-width:768px) and (min-width:640px) {
+	
+	
+	header {
+	height: 76px;
+	width: 80%;
+	}
+	.menubar{
+	height:20px;
+	margin-left:0px;
+	padding-top:60px;
+	background-color:#FFF;
+	text-align:center;
+	}
+	.menubar ul{
+	 list-style-type:none;
+	 text-align:center;
+	 margin-left:250px;
+ }
+ 	#about
+	{ 
+	margin-left:40px;
+	color:#999;
+	font-size:18px;
+	line-height:24px;
+	font-family:myFirstFont2;
+
+	}
+	#seedcamp{
+	 height:40px;
+	 width:60px;
+	 margin-left:10px;
+	 float:left;
+}
+#canary{
+	 height:60px;
+	 width:100px;
+	 margin-left:10px;
+	 float:left;
+}
+
+#olympia{
+	 height:60px; 
+	 width:800px;
+	 margin-left:10px;
+	
+}
+
+#earls{
+	 height:40px; 
+	 width:100px;
+	 margin-left:10px;
+	 float:left;
+}
+#transport{
+	 height:66px; 
+	 width:100px;
+	 margin-left:10px;
+	 float:left;
+}
+	#tisco{
+	 height:60px; 
+	 width:120px;
+	 margin-left:10px;
+	 float:left;
+} 
+	#intel{
+	 height:60px; 
+	 width:80px;
+	 margin-left:10px;
+	 float:left;
+}
+#scheduling{
+		margin-left:120px; 
+		float:left;
+		height:160px; 
+		width:140px;
+	}
+	.support {
+	height: 400px;
+	width: 100%;
+	background:url(img/background.png) no-repeat;
+	background-size:cover;
+	border-top-style:ridge;
+}
+
+/*#text_on_img{
+	margin-left:60px;
+	font-stretch:wider;
+	font-size:18px;
+	color:#FFF;
+	line-height:40px;
+	padding-top:50px;
+}*/
+}
+@media only screen and (max-width:640px) and (min-width:480px) {
+	.container {
+	height:auto;
+	width: 80%;
+	margin:0px 0px 0px 0px;
+	background-color:#FFF;
+	}
+	.menubar ul{
+	 list-style-type:none;
+	 text-align:center;
+	 margin-left:240px;
+ }
+ 	#about
+	{ 
+	margin-left:40px;
+	color:#999;
+	font-size:18px;
+	line-height:24px;
+	font-family:myFirstFont2;
+
+	}
+	#seedcamp{
+	 height:50px;
+	 width:100px;
+	 margin-left:20px;
+	 float:left;
+}
+#canary{
+	 height:60px;
+	 width:120px;
+	 margin-left:20px;
+	 float:left;
+}
+
+#olympia{
+	 height:60px; 
+	 width:100px;
+	 margin-left:20px;
+	
+}
+
+#earls{
+	 height:40px; 
+	 width:120px;
+	 margin-left:20px;
+	 float:left;
+}
+#transport{
+	 height:66px; 
+	 width:120px;
+	 margin-left:20px;
+	 float:left;
+}
+	#tisco{
+	 height:60px; 
+	 width:140px;
+	 margin-left:20px;
+	 float:left;
+} 
+	#intel{
+	 height:60px; 
+	 width:100px;
+	 margin-left:20px;
+	 float:left;
+}
+
+.man_in_van {
+	height:auto;
+	width:100%
+	margin-top: 20px;
+	background:url(img/man%20in%20a%20van.jpg.png) no-repeat;
+	position:relative;
+	text-align:left;
+	font-size:12px;
+}
+
+	#sub{
+		width:50%; 
+		height:100px;
+	}
+	 #implementaion #traning{ margin-left:100px;} 
+	 #deployment  #phone{ margin-left:100px;}
+	
+}
+
+@media only screen and (max-width:480px) and (min-width:320px) {
+	 	#about
+	{
+	margin-left:30px;
+	color:#999;
+	font-size:18px;
+	line-height:24px;
+	font-family:myFirstFont2;
+
+	}
+	
+	#scheduling{ margin-left:30px;}
+	 #security{ margin-left:30px;}
+	  #data{ margin-left:30px;}
+	   #improve{ margin-left:30px;}
+	    #fule #cost{ margin-left:30px;}
+}
+@media only screen and (max-width:320px) and (min-width:240px) {
+}
+----//end-responsive design-----*/
