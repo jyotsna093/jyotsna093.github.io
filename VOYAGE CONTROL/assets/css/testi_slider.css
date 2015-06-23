@@ -1,0 +1,146 @@
+/*
+
+.jquery-script-center {
+width: 100%;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+	text-decoration:none;
+}
+
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+*/
+
+
+ <!-- testi style --!>
+#carousel {
+  position: relative;
+  width:100%;
+
+}
+
+#slides {
+  overflow: hidden;
+  position: relative;
+  width:70%;
+  height: 190px;
+}
+
+#slides ul {
+  list-style: none;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#slides li {
+  width: 100%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+/* Styling for prev and next buttons */
+
+/*.testi_center{
+	
+	position:relative;
+	left:0%;
+	
+}*/
+
+.btn-bar {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+  position:relative;
+  top: 40px;
+}
+
+#buttons {
+  padding: 0 0 5px 0;
+  float: left;
+}
+
+#buttons a {
+  text-align: center;
+  display: block;
+  float: left;
+  outline: 0;
+	font-size: 50px;
+	color:#878787;
+  padding: 5px;
+ 
+}
+
+
+
+a#prev:hover,
+a#next:hover {
+  color: #000;
+ 
+}
+
+.quote-phrase,
+.quote-author {
+  
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 0px;
+  
+}
+
+.quote-phrase {
+  height: 148px;
+  font-size: 18px;
+  color: #000;
+}
+
+.quote-marks {
+  font-size: 20px;
+  padding: 0 3px 3px;
+  position: inherit;
+}
+
+.quote-author {
+  font-style: normal;
+  font-size: 20px;
+  color: #b14943;
+  font-weight: 400;
+  height: 30px;
+}
+
+.quoteContainer,
+.authorContainer {
+  display: table;
+  width: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+
+.btn-bar{
+	display:none;
+}
+
+#carousel {
+  position: relative;
+  width:100%;
+  
+
+}
+
+}
