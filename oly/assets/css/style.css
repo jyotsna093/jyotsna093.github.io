@@ -130,6 +130,10 @@ body { font-family: myFirstFont; font-weight: 400; }
 	background-color:#0CF;
 	margin-right:12px;
 	transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+-webkit-transform:rotate(270deg);
+-IE-transform:rotate(270deg);
+-ms-transform:rotate(270deg);
 	font-size:13px;
 	padding:10px 16px  10px 16px;
 	color:#FFF;
@@ -1542,6 +1546,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 /*.footer { background: url('../img/background/hero.jpg') no-repeat top center; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover; background-attachment: fixed; color: #ababab; font-weight: 300; padding: 0px 0px 30px 0px; }*/
 .footer {
 	background: #fff;
+	padding:0px 0px 0px 0px;
 }
 .footer p, .footer li {
 	color: #323533;
@@ -2142,10 +2147,10 @@ position:relative; right:-725px;
 @media (max-width: 540px) {
 		h4 { font-size: 30px; font-weight: 300; display: block; padding-left:0px; }
 		#h { font-size: 30px; font-weight: 300; display: block; color:#FFF; }
-	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
-	.ftr_hide{
+	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; text-align:center;}
+	/*.ftr_hide{
 		display:none;
-	}
+	}*/
 
 	.revo #main-slider .list-inline {
 		display: none !important;
