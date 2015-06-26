@@ -27,7 +27,58 @@
 /* Fonts */
 
 
-
+.advantage {
+	height: 700px;
+	width: 100%;
+	background:url(img/background.png) no-repeat;
+	border:thick;
+	border:#333;
+	background-size:cover;
+	margin-top:10px;
+	border-top-style:ridge;
+    border-top-color:#F3F3F3;
+	border-bottom:ridge;
+}
+#logosection{
+		height:300px; 
+		width:100%;
+	}
+	#scheduling{
+		margin-left:160px; 
+		float:left;
+		height:160px; 
+		width:140px;
+	}
+	#security{ 
+		margin-left:40px; 
+		float:left;
+		height:160px; 
+		width:100px;
+	}
+	#data{ 
+		margin-left:40px; 
+		float:left;
+		height:160px; 
+		width:160px;
+	}
+	#improve{ 
+		margin-left:40px; 
+		float:left;
+		height:160px; 
+		width:160px;
+	}
+	#fule{ 
+		margin-left:40px; 
+		float:left;
+		height:160px; 
+		width:100px;
+	}
+	#cost{ 
+		margin-left:40px; 
+		float:left;
+		height:160px; 
+		width:140px;
+	}
 
 .rndimages{
 	padding-bottom:40px;
@@ -47,6 +98,7 @@ body { font-family: myFirstFont; font-weight: 400; }
 	h2 { font-size: 47px; font-weight: 300; display: block; }
 	h3 { font-size: 34px; font-weight: 300; display: block; }
 	h4 { font-size: 30px; font-weight: 300; display: block; padding-left:80px; }
+	#hs{font-size: 30px; font-weight: 300; display: block; padding-left:240px;}
 	h5 { font-size: 18px; font-weight: 300; display: block; line-height:20px; }
 	h6 { font-size: 20px; font-weight: 700; display: block; }
 	.h7 { font-size: 17px; display: block; }
@@ -180,7 +232,7 @@ backface-visibility: hidden;
 
 	/* Elements */
 	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 80px; font-family:myFirstFont;}
-		.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 120px; font-family:myFirstFont;}
+		.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 280px; font-family:myFirstFont;}
 	.well { border:none; border-top: 2px solid #f8981d; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; position: relative; padding-left: 60px; }
 	.well h6 { color: #f8981d; }
 	.well .icon { color: #f8981d; font-size: 50px; position: absolute; left: 5px; top: 40px; }
@@ -1619,6 +1671,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 	text-decoration: none;
 	opacity: 0.7;
 }
+ .touch{height:60px; width:160px; color:#FFF; text-align:center; font-size:16px; border:inset; border-radius:5px; border-color:#FFF; padding:8px 5px 2px 5px;}
 
 .rev-big {
 	font-size: 58px;
@@ -2148,6 +2201,7 @@ position:relative; right:-725px;
 @media (max-width: 540px) {
 		h4 { font-size: 30px; font-weight: 300; display: block; padding-left:0px; }
 		#h { font-size: 30px; font-weight: 300; display: block; color:#FFF; }
+		#hs{font-size: 30px; font-weight: 300; display: block; padding-left:0px;}
 	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; text-align:center;}
 	.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
 	/*.ftr_hide{
@@ -2205,7 +2259,7 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:20px; }
 
 @media (max-width: 480px) {
 	#h { font-size: 24px; font-weight: 300; display: block; color:#FFF; }
-	
+	#hs{font-size: 30px; font-weight: 300; display: block; padding-left:0px;}
 	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
 	.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
 	#mid_inr{
