@@ -35,7 +35,7 @@ height:0;
   overflow: hidden;
   position: relative;
   width:70%;
-  height: 190px;
+  height: 180px;
 }
 
 #slides ul {
@@ -65,7 +65,7 @@ height:0;
 }*/
 
 .btn-bar {
-  width: 70%;
+  width: 76%;
   margin: 0 auto;
   display: block;
   position:relative;
@@ -135,6 +135,7 @@ a#next:hover {
 
 .btn-bar{
 	display:none;
+
 }
 
 #carousel {
@@ -142,6 +143,18 @@ a#next:hover {
   width:100%;
   
 
+}}
+/*@media (max-width: 1024px) and (min-width: 768px){ 
+.btn-bar{
+	display:none;
+	visibility:hidden;
 }
 
+#carousel {
+  position: relative;
+  width:100%;
+  
+
+}*/
+	
 }
