@@ -27,58 +27,13 @@
 /* Fonts */
 
 
-.advantage {
-	height: 700px;
-	width: 100%;
-	background:url(img/background.png) no-repeat;
-	border:thick;
-	border:#333;
-	background-size:cover;
-	margin-top:10px;
-	border-top-style:ridge;
-    border-top-color:#F3F3F3;
-	border-bottom:ridge;
+#bot{
+	font-family:myFirstFont;
+	font-size:18px;
+	font-weight:bold;
+
+	color:#FFF;
 }
-#logosection{
-		height:300px; 
-		width:100%;
-	}
-	#scheduling{
-		margin-left:160px; 
-		float:left;
-		height:160px; 
-		width:140px;
-	}
-	#security{ 
-		margin-left:40px; 
-		float:left;
-		height:160px; 
-		width:100px;
-	}
-	#data{ 
-		margin-left:40px; 
-		float:left;
-		height:160px; 
-		width:160px;
-	}
-	#improve{ 
-		margin-left:40px; 
-		float:left;
-		height:160px; 
-		width:160px;
-	}
-	#fule{ 
-		margin-left:40px; 
-		float:left;
-		height:160px; 
-		width:100px;
-	}
-	#cost{ 
-		margin-left:40px; 
-		float:left;
-		height:160px; 
-		width:140px;
-	}
 
 .rndimages{
 	padding-bottom:40px;
@@ -1671,7 +1626,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 	text-decoration: none;
 	opacity: 0.7;
 }
- .touch{height:60px; width:160px; color:#FFF; text-align:center; font-size:16px; border:inset; border-radius:5px; border-color:#FFF; padding:8px 5px 2px 5px;}
+ .touch{ display:block; height:60px; width:200px; margin-top:60px; margin-left:-40px; position:relative; color:#FFF; text-align:center; font-size:16px; border:solid; border-radius:5px; border-color:#FFF; padding:8px 5px 2px 5px;}
 
 .rev-big {
 	font-size: 58px;
