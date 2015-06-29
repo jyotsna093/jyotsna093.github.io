@@ -1,269 +1,275 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<title>voyage</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ <style> 
+@font-face {
+   font-family: myFirstFont;
+   src: url(fonts/Lato-Light.ttf);
+}
 
-    <title>Voyege Control</title>
+@font-face {
+   font-family: myFirstFont1;
+   src: url(fonts/Lato-Black.ttf);
+}
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+@font-face {
+   font-family: myFirstFont2;
+   src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+   font-family: myFirstFont3;
+   src: url(fonts/Lato-Italic.ttf);
+}
+@font-face {
+   font-family: myFirstFont4;
+   src: url(fonts/Lato-Bold.ttf);
+}
 
-    <!-- Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="css/animate.css" rel="stylesheet" />
-    <!-- Squad theme CSS -->
-    <link href="css/style.css" rel="stylesheet">
-	<link href="color/default.css" rel="stylesheet">
+</style>
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Trudge Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
 
 </head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
-	<div id="preloader">
-	  <div id="load"></div>
-	</div>
-
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <h1><img src="images/Voyage-Control-original-logo.gif" class=" logo animated bounceInDown"></h1>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-      			<ul class="nav navbar-nav">
-        			<li class="active"><a href="#intro">Home</a></li>
-        			<li><a href="#">Feature</a></li>
-					<li><a href="#">Benifits</a></li>
-					<li><a href="#">Customers</a></li>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Blog</a></li>
-      			</ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-	<!-- Section: intro -->
-    <section id="intro" class="intro">
-    <div class="vedio_container">
+<body>
+<!--header-->
+	<div class="header">
+		<div class="container">	
+			<div class="logo">
+				<a href="index.html"><img src="images/img/Voyage-Control-original-logo.gif" height="40px" width="auto" alt=""></a>
+			</div>
+				<div class="top-nav">
+					<span class="menu"><img src="images/menu.png" alt=""> </span>
+					<ul>
+            
+						<li ><a href="#">HOME</a></li>
+						<li><a href="#" > FEATURES</a></li>
+						<li><a href="#">BENEFITS</a></li>
+						<li><a href="#" >CUSTOMERS</a></li>
+						<li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">BLOG</a></li>
+                              <li><a href="#"><strong>Get Voyage Control for your business</strong></a></li>
+					</ul>
+					<!--script-->
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+            
+				<div class="clearfix"> </div>
+	  </div>
+       
+</div>
+<div>
   <video preload="true" class="vedio" autoplay="autoplay" loop="loop" volume="0" poster="D84_15_307_detail.mp4"> 
-  <source src="D84_15_307_detail.mp4" type="video/mp4">
-  </video>
-    </div>
-		<div class="slogan">
-			<h2>Voyage <span class="text_color">Control</span> </h2>
-			<h4>Delivering freight management</h4>
-		</div>
-		<div class="page-scroll">
-			<a href="#service" class="btn btn-circle">
-				<i class="fa fa-angle-double-down animated"></i>
-			</a>
-		</div>
-    </section>
-	<!-- /Section: intro -->
-
-	<!-- Section: What is Voyage Control -->
-    <section id="about" class="home-section text-center">
-		<div class="heading-about">
+  <source src="images/img/D84_15_307_detail.mp4" type="video/mp4">
+</video></div>
+  
+<div class="aboutvoyage">
+<article>
+<section>
+<p id="title" style="font-family: myFirstFont4; word-spacing:12px; color:#666;" align="center"><b>What is Voyage Control?</b></p>
+<br><br>
+<p id="about"><strong>Any business that sends or receives freight vehicles will benefit from our Voyage Control SaaS product.</strong></p>
+<br>
+<p id="about">Our product enables you complete control over your logistics, where you can control who arrives at your business,<br>
+what they deliver and when they deliver it.<br>
+Voyage Control provides you with the tools you need to manage your inbound deliveries, optimise your logistics and<br>
+track vehicles in real time.</p>
+<br>
+<p id="about" style="font-size:16px;">Since our establishment 5 years ago we have worked with some of the UK's best known organisations</p>
+</section>
+</article>
+</div>
+  	
+  <div class="banner">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
-						<div class="wow bounceInDown" data-wow-delay="0.4s">
-							<div class="section-heading">
-								<h3>What is Voyage Control</h3>
-							</div>
-							<div class="section-content">
-								<h6><strong>Any business that sends or receives freight vehicles will benefit from our Voyage Control SaaS product.</strong></h6>
-								<p>
-									Our product enables you complete control over your logistics, where you can control who arrives at your business,
-									what they deliver and when they deliver it.
-									Voyage Control provides you with the tools you need to manage your inbound deliveries, optimise your logistics and
-									track vehicles in real time.
-								</p>
-								<p>
-									Since our establishment 5 years ago we have worked with some of the UK's best known organisations	
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
+  <div class="banner-in">
+	<p align="justify"><b>"Having completed our £30m investment<br>
+programme into Olympia London, we are<br>
+continuing to ensure that the service we provide<br>
+matches our first class facilities. It is fantastic to see<br>
+how well the vehicle booking system has worked for<br>
+the big shows at Earls Court, demonstrating its<br>
+viability and use for next year when shows transfer<br>
+to Olympia London." 2014<b></p>
 
-		<div class="row">
-			<div class="col-lg-2 col-lg-offset-5">
-				<hr class="marginbot-50">
-			</div>
-		</div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.2s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/cognicity logo.jpg" alt="" class="img-responsive " /></div>
-                    </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.5s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/canary logo.jpg" alt="" class="img-responsive " /></div>
-                    </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.8s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/earls logo.jpg" alt="" class="img-responsive " /></div>
-                    </div>
-				</div>
-            </div>
-			<div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/olympia logo.jpg" alt="" class="img-responsive /></div>
-                    </div>
-				</div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/business green logo.png" alt="" class="img-responsive" /></div>
-                    </div>
-				</div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/tansport logo.png" alt="" class="img-responsive" /></div>
-                    </div>
-				</div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                    <div class="inner">
-                        <div class="avatar"><img src="" alt="" class="img-responsive" /></div>
-                    </div>
-				</div>
-            </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
-                    <div class="inner">
-                        <div class="avatar"><img src="images/cognicity logo.jpg" alt="" class="img-responsive img-circle" /></div>
-                    </div>
-				</div>
-            </div>
-        </div>		
-		</div>
-	</section>
+<img src="images/img/olympia.gif" height="120" width="120" style="float:left"><br>
+<p style="margin-left:180px;"><em>Anna Golden, commercial director<br>
+for Olympia London</em></p>
+  </div>
 
-
-	<section id="ntro" class="ntro">
-		<div class="slogan wow bounceInUp">
-			<h6><em>"Having completed our £30m investment programme into Olympia London, we are continuing to ensure that the service we provide matches our first class facilities. It is fantastic to see how well the vehicle booking system has worked for the big shows at Earls Court, demonstrating its viability and use for next year when shows transfer
-			to Olympia London." 2014</em><br/>
-			<img src="">
-			<div align="right">Anna Golden, commercial director</div>
-			<div align="right">for Olympia London</div>
-			</h6>
-		</div>
-    </section>
-
-
-	<!-- Section: Our Users Think -->
-    <section id="about" class="home-section text-center">
-		<div class="heading-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
-						<div class="wow bounceInUp" data-wow-delay="0.4s">
-							<div class="section-heading">
-								<h3>What our users think</h3>
-							</div>
-							<div class="section-content">
-								<h6><strong>"Love it, quick and easy to manage…", @suey via Twitter on the 1st of March 2015</strong></h6>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-5">
-					<hr class="marginbot-50">
-				</div>
-			</div>
-	        <div class="row">
-	            <div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.2s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/face4.gif" alt="" class="img-responsive img-circle" /></div>
-	                    </div>
-					</div>
-	            </div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.5s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/face3.gif" alt="" class="img-responsive img-circle" /></div>
-	                    </div>
-					</div>
-	            </div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.8s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/lady-face.gif" alt="" class="img-responsive img-circle" /></div>
-	                    </div>
-					</div>
-	            </div>
 				
-	</section>
+			</div>
+		</div>
+        <section id="about1" class="section dark">
+	<div style="background-color:#FFF; width:100%;  min-height:400px;  margin:0px 0px 0px 0px">
 
-	<!-- /Section: about -->
+		<div class="tab-content alt">
+
+		  <div class="tab-pane active" id="first-tab-alt">
+				<div class="section-header animated hiding center" data-animation="fadeInDown">
+					
+					<div id="title">
+					<strong>What our users think</strong>
+             </div>
+                   <p align="center"> <em>"Love it, quick and easy to manage…"</em>, <a href="www.twitter.com">@suey</a> via Twitter on the 1st of March 2015</p>
+				</div>
+                <br><br>
+				<div class="section-content row">
+					<div class="col-sm-4 rndimages">
+						<article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="0">
+						  <div class="img1"><img src="images/img/face4.gif" width="150px" height="150px" class="click1" style="cursor:pointer;"></div>
+                            
+						</article>
+						<!--<span class="icon icon-arrows-04"></span>-->
+					</div>
+					<div class="col-sm-4 rndimages">
+						<article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="400">
+							<div class="img1"><img class="click2" src="images/img/face3.gif" width="150px" style="cursor:pointer;"></div>
+                            
+						</article>
+						<!--<span class="icon icon-arrows-04"></span>-->
+					</div>
+					<div class="col-sm-4 rndimages">
+						<article class="text-center animated hiding" data-animation="fadeInLeft" data-delay="800">
+						<div class="img1"><img class="click3" src="images/img/lady-face.gif" width="150px" height="150px" style="cursor:pointer;"></div>
+                            
+						</article>
+					</div>
+                    <div class="section-header animated hiding center" data-animation="fadeInDown">
+                    <div class="sub-heading">
+
+<br><br>
+<div id="q1">
+<em>"Being able to book a time slot for our van meant we didn't waste time queuing so had more time preparing our stand" Helen, Britains DNA</em></div>
+
+
+<div id="q2" style="display:none;">
+<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"We saved money and time when organising our shipping by using the marketplace on Voyage Control" Ryan</em></div>
+
+
+<div id="q3" style="display:none;">
+<em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"As a small business owner I have exhibited at Excel, the
+Business Design Centre, Battersea Evolution, and the Saatchi<br>
+Gallery, and worst part of exhibiting is always packing up at the
+end of the event.<br>
+I much prefer exhibiting at Olympia London over other venues
+since they use Voyage Control to make the transport much
+easier and less stressful for their exhibitors".
+Sarah, owner of Little Bevan</em></div>
+
+                    </div>
+
+</div></div>
+				</div>
+			
+			</div>
+
+		</div>
 	
+    <script>
+$( ".click1" ).click(function() {
+$( "#q1" ).show();
+$( "#q2" ).hide();
+$( "#q3" ).hide();
+});
 
-	<!-- Section: services -->
+
+
+$( ".click2" ).click(function() {
+$( "#q1" ).hide();
+$( "#q2" ).show();
+$( "#q3" ).hide();
+});
+
+
+
+$( ".click3" ).click(function() {
+$( "#q1" ).hide();
+$( "#q2" ).hide();
+$( "#q3" ).show();
+});
+
+
+</script>
+</section>
+		<!---->
+        <!-- Section: services -->
+             <section id="about1" class="section dark">
+	<div style="background-color:#FFF; width:100%;  min-height:400px; border-bottom:#E5E5E5 solid 1px; border-top:#E5E5E5 solid 2px; margin:0px 0px 0px 0px">
+
+		<div class="tab-content alt">
+
+		  <div class="tab-pane active" id="first-tab-alt">
+				<div class="section-header animated hiding center" data-animation="fadeInDown">
     <section id="service" class="home-section text-center">
-    	<div class="heading-about">
+    	
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
-						<div class="wow bounceInUp" data-wow-delay="0.4s">
-							<div class="section-heading">
-								<h3>Advantages of using Voyage Control</h3>
-								<i class="fa fa-2x fa-angle-down"></i>
-							</div>
-						</div>
-					</div>
+	
+							<div id="title">
+								Advantages of using Voyage Control
+								
+						
 				</div>
 			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-5">
-					<hr class="marginbot-50">
-				</div>
-			</div>
-	        <div class="row">
+		
+		<br><br>
 	            <div class="col-sm-3 col-md-2">
 					<div class="wow fadeInLeft" data-wow-delay="0.2s">
 	                <div class="service-box">
 						<div class="service-icon">
-							<img src="images/icons/noun_47462_cc (1).png" alt="" />
+							<img class="click4" src="images/img/icons/noun_47462_cc (1).png" alt="" style="cursor:pointer;"/>
 						</div>
-						<div class="service-desc">
-							<p>Scheduling and opImising vehicle flow in busy hubs...</p>
+		  <div class="service-desc">
+							<p class="click4"  style="cursor:pointer; text-decoration:none;">Scheduling and<br> opImising vehicle <br>flow in busy hubs</p>
+						</div>
+	                </div>
+					</div>
+              </div>
+				<div class="col-sm-3 col-md-2">
+					<div class="wow fadeInUp" data-wow-delay="0.2s">
+	                <div class="service-box">
+						<div class="service-icon">
+							<img class="click5" src="images/img/icons/noun_57704_cc (1).png" alt="" style="cursor:pointer;"/>
+						</div>
+		  <div>
+							<p  class="click5"  style="cursor:pointer; text-decoration:none;" >Increasing security</p>
 						</div>
 	                </div>
 					</div>
@@ -272,22 +278,10 @@
 					<div class="wow fadeInUp" data-wow-delay="0.2s">
 	                <div class="service-box">
 						<div class="service-icon">
-							<img src="images/icons/noun_57704_cc (1).png" alt="" />
+							<img class="click6" src="images/img/icons/noun_1908_cc (1).png" alt="" style="cursor:pointer;"/>
 						</div>
 						<div class="service-desc">
-							<p>Increasing security...</p>
-						</div>
-	                </div>
-					</div>
-	            </div>
-				<div class="col-sm-3 col-md-2">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-	                <div class="service-box">
-						<div class="service-icon">
-							<img src="images/icons/noun_1908_cc (1).png" alt="" />
-						</div>
-						<div class="service-desc">
-							<p>Traceability Data gathering Reports...</p>
+							<p  class="click6"  style="cursor:pointer; text-decoration:none;">Traceability<br> Data gathering<br> Reports</p>
 						</div>
 	                </div>
 					</div>
@@ -296,10 +290,10 @@
 					<div class="wow fadeInRight" data-wow-delay="0.2s">
 	                <div class="service-box">
 						<div class="service-icon">
-							<img src="images/icons/noun_55607_cc (1).png" alt="" />
+							<img class="click7" src="images/img/icons/noun_55607_cc (1).png" alt="" style="cursor:pointer;"/>
 						</div>
 						<div class="service-desc">
-							<p>Improve customer service...</p>
+							<p  class="click7"  style="cursor:pointer; text-decoration:none;">Improve<br> customer<br> Experience</p>
 						</div>
 	                </div>
 					</div>
@@ -308,10 +302,10 @@
 					<div class="wow fadeInRight" data-wow-delay="0.2s">
 	                <div class="service-box">
 						<div class="service-icon">
-							<img src="images/icons/noun_12204_cc (1).png" alt="" />
+							<img class="click8" src="images/img/icons/noun_12204_cc (1).png" alt="" style="cursor:pointer;"/>
 						</div>
 						<div class="service-desc">
-							<p>Cutting fuel and CO2 emissions...</p>
+							<p  class="click8"  style="cursor:pointer; text-decoration:none;">Cutting fuel <br>and CO2 <br>emissions</p>
 						</div>
 	                </div>
 					</div>
@@ -320,184 +314,209 @@
 					<div class="wow fadeInRight" data-wow-delay="0.2s">
 	                <div class="service-box">
 						<div class="service-icon">
-							<img src="images/icons/noun_19252_cc (1).png" alt="" />
+							<img class="click9" src="images/img/icons/noun_19252_cc (1).png" alt="" />
 						</div>
-						<div class="service-desc">
-							<p>Maximise vehicle utilisation for reduced carrier cost. Coming soon...</p>
+						<div>
+							<p  class="click9"  style="cursor:pointer; text-decoration:none;">Maximise vehicle<br> utilisation for <br>reduced carrier cost.<br> Coming soon</p>
 						</div>
+
 	                </div>
 					</div>
 	            </div>
-	        </div>		
-		</div>
+                <div id="q4"><p style="color:#33cc66" align="justify">
+Scheduling and opImising vehicle flow in busy hubs</p><br>
+<p align="left">Powerful scheduling tools to reduce waiting time for exhibitors; saving you money.
+Comprehensive reports to enable optimisation of operations based on planned activity.</p></div>
+<div id="q5" style="display:none;">
+<p style="color:#33cc66" align="justify">Increased Security:</p>
+<br><p align="left">
+Security and management have constant access to a strong backend display of data, timeframes and real time tracking of their suppliers. With this information, security and management can monitor movement consistently with the reassurance of knowing what to expect eliminating the unknowing of unwanted arrivals or security threats.</p>
+</div><div id="q6" style="display:none;"><p style="color:#33cc66" align="justify">
+Traceability, Data Gathering and Reports:</p>
+<br><p align="left">
+Waiting for deliveries can be time-consuming and expensive, with our real-time tracking you can monitor the whereabouts of your deliveries and manage your operations accordingly. The reports available allow you to measure past operations and manage future operations based on the data we collect.
+</p>
+
+</div><div id="q7" style="display:none;">
+<p style="color:#33cc66" align="justify">Improve Customer Experience: </p>
+<br><p align="left">
+The software we provide enables a self-service experience for users, reducing their waiting time and enforcing a much smoother process.<br> With constant access to the Voyage Control helpdesk users are able to ask for help with queries and ultimately are able to plan their resources better. </p>
+
+	</div><div id="q8" style="display:none;"><p style="color:#33cc66" align="justify">
+Cutting fuel and CO2 emissions:</p><br>
+<p align="left">
+By reducing the idol waiting time of vehicles/freight we are reducing your waste of resources including fuel and manpower. <br>Coming soon is also the ability to optimise loads, reducing the number of vehicles travelling around with little to no cargo and having a huge positive impact on the environment and in reducing CO2 emissions.
+</p>
+</div>
+          </div>
+          </div>
+             </div>
+                </div>
+                   </div>
+            <script>
+$( ".click4" ).click(function() {
+$( "#q4" ).show();
+$( "#q5" ).hide();
+$( "#q6" ).hide();
+$( "#q7" ).hide();
+$( "#q8" ).hide();
+$( "#q9" ).hide();
+});
+
+
+
+$( ".click5" ).click(function() {
+$( "#q4" ).hide();
+$( "#q5" ).show();
+$( "#q6" ).hide();
+$( "#q7" ).hide();
+$( "#q8" ).hide();
+$( "#q9" ).hide();
+});
+
+
+
+$( ".click6" ).click(function() {
+$( "#q4" ).hide();
+$( "#q5" ).hide();
+$( "#q6" ).show();
+$( "#q7" ).hide();
+$( "#q8" ).hide();
+$( "#q9" ).hide();
+});
+
+$( ".click7" ).click(function() {
+$( "#q4" ).hide();
+$( "#q5" ).hide();
+$( "#q6" ).hide();
+$( "#q7" ).show();
+$( "#q8" ).hide();
+$( "#q9" ).hide();
+});
+
+$( ".click8" ).click(function() {
+$( "#q4" ).hide();
+$( "#q5" ).hide();
+$( "#q6" ).hide();
+$( "#q7" ).hide();
+$( "#q8" ).show();
+$( "#q9" ).hide();
+});
+$( ".click9" ).click(function() {
+$( "#q4" ).hide();
+$( "#q5" ).hide();
+$( "#q6" ).hide();
+$( "#q7" ).hide();
+$( "#q8" ).hide();
+$( "#q9" ).show();
+});
+
+</script>
 	</section>
 	<!-- /Section: services -->
-
-
-
-	<!-- Section: services -->
-    <section id="service" class="home-section text-center">
-    	<div class="heading-about">
+    <div class="container">
+<div class="services" >
+<p id="title">Voyage Control service</p>
+<br>
+<img src="images/img/VC-devices-wireframe.png" class="wireframe img-responsive " align="right"/>
+<p id="ques">service breakdown<br>what is it about?<br>who is this for?<br>what is included?</p>
+</div>
+</div>
+		<div class="content" style=" border-top:#E5E5E5 solid 1px;">
 			<div class="container">
+				<div class=" content-top">
+                <p id="title">World class implementation & support</p><br><br>
+						<div class="col-lg-6 top-grid">
+						  <a href="#"><img class="img-responsive" src="images/img/icons/noun_105321_cc.png" id="icon1" alt=" "></a>
+						  <h5>Implementation</h5>
+							<p>Global implementations in varying industries<br>
+Instant Installation</p>
+						</div>
+		  <div class="col-lg-6 top-grid">
+							<a href="#"><img class="img-responsive" src="images/img/icons/noun_65286_cc.png" alt=" " id="icon1"></a>
+							<h5>Deployment Options</h5>
+							<p>
+                            Flexible configuration to your infrastructure</p>
+						</div>
+                        
+      
+		
+                                        
+          <div class="col-lg-6 top-grid">
+							<a href="#"><img class="img-responsive" src="images/img/icons/noun_40099_cc.png" alt=" " id="icon1"></a>
+							<h5>User Training</h5>
+							<p>Admin User Training
+                            </p>
+						</div>	
+                        					<div class="col-lg-6 top-grid">
+							<a href="#"><img class="img-responsive" src="images/img/icons/noun_138195_cc.png" alt=" " id="icon1"></a>
+							<h5>Software Support
+</h5>
+							<p>
+                            Hotline support service</p>
+						</div>
+				  <div class="clearfix"> </div>
+				</div>
+			</div>
+			<!---->
+                     <div class="text-heading1" >
+		
+				<p class="animated hiding" data-animation="fadeInDown" data-delay="500" style="color:#FFFFFF;">Over 17,000 businesses have made over 60,000 bookings with Voyage Control</p>
+              
+                	<p class="animated hiding" data-animation="fadeInDown" data-delay="500" style="color:#FFFFFF;"><a href="#"><span style="text-decoration:underline;color:#fff;">Find out why and learn how Voyage Control will help you</span></a></p>
+				
+			</div>
+
+			<a id="showHere"></a>
+		</div>
+            
+            <div class="news">
+
+<p id="title">Latest news</p>
+<br>
+<br>
+<div id="newsbar" class=" col-lg-4 col-md-4 col-sm-1 col-xs-1"><div><img class="img-responsive"src="images/img/NEWS1.jpg" id="newsimg"></div>
+<div id="newstext1">Voyage Control win Cognicity<br>
+Challenge</div></div>
+
+<div id="newsbar" class="col-lg-4 col-md-4 col-sm-1 col-xs-1"><div><img class="img-responsive" src="images/img/news2.jpg" id="newsimg" ></div>
+<div id="newstext2">Voyage Control launches pilot<br>at Canary wharf
+</div></div>
+
+<div id="newsbar" class=" col-lg-4 col-md-4 col-sm-1 col-xs-1"><div><img class="img-responsive" src="images/img/NEWS3.jpg" id="newsimg"></div>
+<div id="newstext3">Voyage Control expanding to<br>
+New York</div></div>
+</div>
+<br><br>
+<section class="text-center">
+		
+		
 				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2">
+					
 						<div class="wow bounceInUp" data-wow-delay="0.4s">
 							<div class="section-heading">
-								<h3>World class implementation & support</h3>
-								<i class="fa fa-2x fa-angle-down"></i>
-							</div>
-						</div>
+							  <p style="text-align:center; font-size:20px; padding-top:50px;">Who is talking about us:</p><br><br><br><br>
+					
+			
+		
+		
+			
+			</div><div style="height:200px; width:100%;"><div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3" align="right">
+            <img class="img-responsive" src="images/img/technews logo.jpg" height="680" width="120"/></div>
+            <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-3"align="center">
+<img class="img-responsive"  src="images/img/wharf logo.jpg" height="120" width="60"/></div>
+<div   class="col-lg-3 col-md-3 col-sm-3 col-xs-3" align="center">
+<img class="img-responsive" src="images/img/greenbuilding logo.png"  height="120" width="60"/></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" align="left" >
+<img class="img-responsive"  src="images/img/business green logo.png"  height="68" width="120"/></div>
+		</div>
+			</div>			
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-5">
-					<hr class="marginbot-50">
-				</div>
-			</div>
-	        <div class="row">
-	            <div class="col-sm-3 col-md-3">
-					<div class="wow fadeInLeft" data-wow-delay="0.2s">
-	                <div class="service-box">
-						<div class="service-icon">
-							<img src="images/icons/noun_105321_cc.png" alt="" />
-						</div>
-						<div class="service-desc">
-							<h6>Implementation</h6>
-							<h6>Global implementations in varying industries</h6>
-							<h6>Instant Installation</h6>
-						</div>
-	                </div>
-					</div>
-	            </div>
-				<div class="col-sm-3 col-md-3">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-	                <div class="service-box">
-						<div class="service-icon">
-							<img src="images/icons/noun_65286_cc.png" alt="" />
-						</div>
-						<div class="service-desc">
-							<h6>Deployment Options</h6>
-							<h6>Flexible configuration to your infrastructure</h6>
-						</div>
-	                </div>
-					</div>
-	            </div>
-				<div class="col-sm-3 col-md-3">
-					<div class="wow fadeInUp" data-wow-delay="0.2s">
-	                <div class="service-box">
-						<div class="service-icon">
-							<img src="images/icons/noun_40099_cc.png" alt="" />
-						</div>
-						<div class="service-desc">
-							<h6>User Training</h6>
-							<h6>Admin user training</h6>
-						</div>
-	                </div>
-					</div>
-	            </div>
-				<div class="col-sm-3 col-md-3">
-					<div class="wow fadeInRight" data-wow-delay="0.2s">
-	                <div class="service-box">
-						<div class="service-icon">
-							<img src="images/icons/noun_138195_cc.png" alt="" />
-						</div>
-						<div class="service-desc">
-							<h6>Software Support </h6>
-							<h6>Hotline support service </h6>
-						</div>
-	                </div>
-					</div>
-	            </div>
-	        </div>		
-		</div>
+	        		
+		
 	</section>
-	<!-- /Section: services -->
-
-
-	<section id="about" class="home-section text-center">
-		<div class="heading-about">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1">
-						<div class="wow bounceInUp" data-wow-delay="0.4s">
-							<div class="section-heading">
-								<h3>Who is talking about us</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-lg-offset-5">
-					<hr class="marginbot-50">
-				</div>
-			</div>
-	        <div class="row">
-	            <div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.2s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/technews logo.jpg" alt="" class="img-responsive" /></div>
-	                    </div>
-					</div>
-	            </div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.5s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/wharf logo.jpg" alt="" class="img-responsive" /></div>
-	                    </div>
-					</div>
-	            </div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="0.8s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/greenbuilding logo.png" alt="" class="img-responsive" /></div>
-	                    </div>
-					</div>
-	            </div>
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="wow bounceInUp" data-wow-delay="1s">
-	                    <div class="inner">
-	                        <div class="avatar"><img src="images/business green logo.png" alt="" class="img-responsive" /></div>
-	                    </div>
-					</div>
-	            </div>
-	        </div>		
-		</div>
-	</section>
-
-
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-lg-12">
-					<div class="wow shake" data-wow-delay="0.4s">
-					<div class="page-scroll marginbot-30">
-						<a href="#intro" id="totop" class="btn btn-circle">
-							<i class="fa fa-angle-double-up animated"></i>
-						</a>
-					</div>
-					</div>
-					<p>&copy;Copyright 2014 - Squad. All rights reserved.</p>
-				</div>
-			</div>	
-		</div>
-	</footer>
-
-    <!-- Core JavaScript Files -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>	
-	<script src="js/jquery.scrollTo.js"></script>
-	<script src="js/wow.min.js"></script>
-    <!-- Custom Theme JavaScript -->
-    <script src="js/custom.js"></script>
-
+			
 </body>
-
 </html>
+			
