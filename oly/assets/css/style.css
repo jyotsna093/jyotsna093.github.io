@@ -1626,7 +1626,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 	text-decoration: none;
 	opacity: 0.7;
 }
- .touch{ display:block; height:60px; width:200px; margin-top:60px; margin-left:-40px; position:relative; color:#FFF; text-align:center; font-size:16px; border:solid; border-radius:5px; border-color:#FFF; padding:8px 5px 2px 5px;}
+ .touch{ display:block; height:60px; width:200px; margin-top:60px; margin-left:-52px; position:relative; color:#FFF; text-align:center; font-size:16px; border:solid; border-radius:5px; border-width:thin;border-color:#FFF; padding:16px 5px 2px 5px; text-decoration:none;}
 
 .rev-big {
 	font-size: 58px;
