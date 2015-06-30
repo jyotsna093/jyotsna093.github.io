@@ -166,7 +166,7 @@ backface-visibility: hidden;
 	.navigation { background: #fafafa; z-index: 2; }
 	.navigation-brand { float: left; }
 	.navigation-brand:after { content: ''; display: table; }
-	.navigation-brand .brand-logo  { width:220px; height:60px; }
+	.navigation-brand .brand-logo  { width:220px; height:70px; }
 	.navigation-brand .brand-logo .logo { display:block; background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat;  height: 58px; width:auto;background-size: 100%; margin-left:0px;  }
 	.fixmenu-clone .brand-logo .logo { background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat; background-size: 75%; }
 	.navigation-brand .brand-logo h4 { margin-top:15px; }
