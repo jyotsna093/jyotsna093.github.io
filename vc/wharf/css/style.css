@@ -17,6 +17,7 @@ body a{
 	-moz-transition: 0.5s all;
 	-ms-transition: 0.5s all;
 }
+
 #bot{
 	font-family:myFirstFont;
 	font-size:18px;
@@ -212,6 +213,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	width:100%;
 	position:relative;
 	text-align: right;
+	color:#33cc66;
 }
 .top-nav ul li{
 	display: block;
