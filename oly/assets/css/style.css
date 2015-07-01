@@ -1723,7 +1723,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 
 }
 .arrow_rgt{
-position:relative; right:-725px;
+position:relative; right:-900px;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
