@@ -646,6 +646,7 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	text-align: center;
 	background-color:#fff;
 	opacity:0.8;
+	
 	margin-top:200px;
 }
 
@@ -662,7 +663,8 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	padding-top:20px;
 	padding-bottom:20px;
 }
-
+.oly{z-index:1;
+background:rgba(0,0,0,.5);}
 .text-heading p {
 	font-size: 23px;
 	font-weight: 500;
