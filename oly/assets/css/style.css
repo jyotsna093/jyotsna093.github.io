@@ -62,7 +62,7 @@ body { font-family: myFirstFont; font-weight: 400; }
 	h1, .h1, h2, .h2, h3, .h3, h4, .h4 { margin-top: 20px; margin-bottom: 20px; }
 	h5, .h5, h6, .h6, .h7 { margin-top: 20px; margin-bottom: 10px; }
 
-	p { font-size: 16px; line-height: 27px; color: #1D1D1D; }
+	p { font-size: 14px; line-height: 27px; color: #1D1D1D; }
 	small { font-weight: 300; font-size: 15px; line-height: 26px; }
 
 	a { color: #f8981d; text-decoration: none; }
@@ -166,8 +166,8 @@ backface-visibility: hidden;
 	.navigation { background: #fafafa; z-index: 2; }
 	.navigation-brand { float: left; }
 	.navigation-brand:after { content: ''; display: table; }
-	.navigation-brand .brand-logo  { width:220px; height:70px; }
-	.navigation-brand .brand-logo .logo { display:block; background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat;  height: 58px; width:auto;background-size: 100%; margin-left:0px;  }
+	.navigation-brand .brand-logo  { width:220px; height:70px; margin-top:10px; }
+	.navigation-brand .brand-logo .logo { display:block; background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat;  height: 58px; width:auto;background-size: 100%; margin-left:0px;   }
 	.fixmenu-clone .brand-logo .logo { background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat; background-size: 100%; }
 	.navigation-brand .brand-logo h4 { margin-top:15px; }
 	.navigation-brand .brand-logo  a { color:#fff; }
@@ -663,8 +663,7 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	padding-top:20px;
 	padding-bottom:20px;
 }
-.oly{z-index:1;
-background:rgba(0,0,0,.5);}
+.oly{ height:100px;}
 .text-heading p {
 	font-size: 23px;
 	font-weight: 500;
@@ -1825,6 +1824,7 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 		padding: 6px 0px 0px 0px;
 		margin-left: 15px;
 		float: left;
+		margin-top:10px;
 	}
 	.navigation-header .navigation-brand {
 		margin: 0px 0px 0px 0px;
@@ -2445,6 +2445,14 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 /* Tablet device Landscape 1024px and 768px */
 @media (max-width: 1024px) and (min-width: 768px) {
 h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
+.navigation-brand .brand-logo {
+		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		margin-left: -10px;
+		margin-top:10px;
+	}
 	p {
 		font-size: 14px;
 		line-height: 25px;
