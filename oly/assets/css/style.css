@@ -162,12 +162,15 @@ backface-visibility: hidden;
 }
 
 
-
 	.navigation { background: #fafafa; z-index: 2; }
 	.navigation-brand { float: left; }
 	.navigation-brand:after { content: ''; display: table; }
 	.navigation-brand .brand-logo  { width:220px; height:70px; margin-top:10px; }
+	
 	.navigation-brand .brand-logo .logo { display:block; background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat;  height: 58px; width:auto;background-size: 100%; margin-left:0px;   }
+	
+	
+
 	.fixmenu-clone .brand-logo .logo { background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat; background-size: 100%; }
 	.navigation-brand .brand-logo h4 { margin-top:15px; }
 	.navigation-brand .brand-logo  a { color:#fff; }
@@ -663,7 +666,7 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	padding-top:20px;
 	padding-bottom:20px;
 }
-.oly{ height:100px;}
+.oly{ height:100px;  visibility: hidden):}
 .arrow{
 	height:100px;
 
@@ -2487,6 +2490,15 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 		margin-left: -10px;
 		margin-top:10px;
 	}
+	
+	
+	.navigation-brand .brand-logo .logo { display:block; background:url(../img/home/Voyage-Control-original-logo.gif) center left no-repeat;  height: 83px; width:auto;background-size: 100%; margin-left:0px;   }
+	
+	.navigation-header .navigation-bar > li.featured1 {
+	padding: 15px 0;
+	margin-top: -35px;
+}
+
 	p {
 		font-size: 14px;
 		line-height: 25px;
@@ -2504,7 +2516,6 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 	.navigation-header .navigation-bar > li {
 		padding: 15px 5px;
 
-		
 	}
 
 	#landing-page .plain-version.static-header {
