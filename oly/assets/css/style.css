@@ -659,17 +659,19 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	text-align: center;
 	background-color:#6ec497;
 	opacity:0.9;
-	margin-top:110px;
+	margin-top:20px;
 	padding-top:20px;
 	padding-bottom:20px;
 }
 .oly{ height:100px;}
-/*.arrow{
+.arrow{
 	height:100px;
-	width:400x;
-	padding-top:60px;
+
+	padding-top:40px;
+
+
 	
-}*/
+}
 .text-heading p {
 	font-size: 23px;
 	font-weight: 500;
