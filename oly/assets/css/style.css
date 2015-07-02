@@ -26,7 +26,14 @@
 
 /* Fonts */
 
-
+.middleDiv {
+	  margin: auto;
+	  
+    width: 72%;
+	vertical-align:middle;
+   
+    padding: 10px;
+}
 #bot{
 	font-family:myFirstFont;
 	font-size:18px;
@@ -1796,6 +1803,11 @@ position:relative; right:-825px;
 
 /* Mobile device 767px */
 @media (max-width: 767px) {
+	.middleDiv {
+	  margin: auto;
+    width: auto%;
+    padding: 10px;
+}
 	#h { font-size: 36px; font-weight: 300; line-height:26px; display: block; color:#FFF; }
 h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 .testi_center{
