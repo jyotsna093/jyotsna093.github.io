@@ -56,7 +56,7 @@ body { font-family: myFirstFont; font-weight: 400; }
 	/* Global & Helpers */
 	body { color: #323533; font-size: 16px; line-height:27px; background: #fff; margin: 0; -webkit-font-smoothing: antialiased; }
 #h { font-size: 36px; font-weight: 300; line-height:40px; display: block; color:#FFF; }
-	h1 { font-size: 40px; font-weight: 400; display: block; }
+	h1 { font-size: 44px; font-weight: 400; display: block;  }
 	h2 { font-size: 47px; font-weight: 300; display: block; }
 	h3 { font-size: 34px; font-weight: 300; display: block; }
 	h4 { font-size: 36px; font-weight: 300; display: block; padding-left:80px; color:#666; }
@@ -655,14 +655,14 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 .text-heading {
 	position: relative;
 	margin:0 auto;
-	width: 60%;
+	width: 56%;
 	min-height:300px;
 	padding-bottom:20px;
 	left: 0;
 	right: 0;
 	text-align: center;
 	background-color:#fff;
-	opacity:0.8;
+	opacity:0.9;
 	
 	margin-top:200px;
 }
@@ -680,7 +680,9 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	padding-top:20px;
 	padding-bottom:20px;
 }
-.oly{ height:100px;  visibility: hidden):}
+.oly{ height:100px;opacity:1000;
+    filter:alpha(opacity=40);
+    z-index: 1000;}
 .arrow{
 	height:100px;
 
