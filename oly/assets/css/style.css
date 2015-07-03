@@ -60,7 +60,7 @@ body { font-family: myFirstFont; font-weight: 400; }
 	h2 { font-size: 47px; font-weight: 300; display: block; }
 	h3 { font-size: 34px; font-weight: 300; display: block; }
 	h4 { font-size: 36px; font-weight: 300; display: block; padding-left:80px; color:#666; }
-	#hs{font-size: 36px; font-weight: 300; display: block; padding-left:0px;}
+	#hs{font-size: 36px; font-weight: 300; display: block; padding-left:32px; float:left; color:#666;}
 	h5 { font-size: 18px; font-weight: 300; display: block; line-height:26px; text-shadow:#CCC; }
 	h6 { font-size: 20px; font-weight: 700; display: block; }
 	.h7 { font-size: 17px; display: block; }
@@ -196,9 +196,9 @@ backface-visibility: hidden;
 	.navigation-toggle .icon-bar+.icon-bar { margin-top: 4px; color:#66cc99; }
 
 	/* Elements */
-	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
-		.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 40px; font-family:myFirstFont; font-size:24px;}
-		.sub-title2 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 80px; font-family:myFirstFont; font-size:24px;}
+	.sub-title { font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
+		.sub-title1 {font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px; margin-right:22px; float:right;}
+		.sub-title2 { font-weight: 300;  color:#666; padding: 0px 0px 8px 80px; font-family:myFirstFont; font-size:24px;}
 	.well { border:none; border-top: 2px solid #f8981d; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; position: relative; padding-left: 60px; }
 	.well h6 { color: #f8981d; }
 	.well .icon { color: #f8981d; font-size: 50px; position: absolute; left: 5px; top: 40px; }
@@ -353,7 +353,14 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 .portion{
 	position:relative;
 	float:left;
-	width:80%; 
+	width:68%; 
+/*	margin-left:200px;*/
+	margin-top:10px;
+}
+.portion1{
+	position:relative;
+	float:right;
+	width:100%; 
 /*	margin-left:200px;*/
 	margin-top:10px;
 }
@@ -2211,9 +2218,9 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 		h4 { font-size: 30px; font-weight: 300; display: block; padding-left:0px; }
 		#h { font-size: 30px; font-weight: 300; display: block; color:#FFF; line-height:20px; }
 		#hs{font-size: 30px; font-weight: 300; display: block; padding-left:0px;}
-	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; text-align:center;}
-	.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
-	.sub-title2 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
+	.sub-title { font-weight: 300;  padding: 0px 0px 8px 0px; font-family:myFirstFont; text-align:center;}
+	.sub-title1 { font-weight: 300;  padding: 0px 0px 0px 0px; font-family:myFirstFont; text-align:center;}
+	.sub-title2 { font-weight: 300;  padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
 	/*.ftr_hide{
 		display:none;
 	}*/
@@ -2270,9 +2277,9 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:14px; }
 @media (max-width: 480px) {
 	#h { font-size: 24px; font-weight: 300; display: block; color:#FFF; line-height:20px; }
 	#hs{font-size: 30px; font-weight: 300; display: block; padding-left:0px;}
-	.sub-title { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
-	.sub-title1 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
-	.sub-title2 { font-weight: 300; color: #8D8D8D; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
+	.sub-title { font-weight: 300; padding: 0px 0px 8px 0px; font-family:myFirstFont;}
+	.sub-title1 { font-weight: 300;  padding: 0px 0px 8px 0px; font-family:myFirstFont;}
+	.sub-title2 { font-weight: 300; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
 	#mid_inr{
 	position: relative;
 	width:74%;
