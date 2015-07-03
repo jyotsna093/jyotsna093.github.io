@@ -2823,7 +2823,7 @@ span,
        -moz-animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 }
-.animated{-webkit-animation-fill-mode:both;
+.animated1{-webkit-animation-fill-mode:both;
 -moz-animation-fill-mode:both;
 -ms-animation-fill-mode:both;
 -o-animation-fill-mode:both;
