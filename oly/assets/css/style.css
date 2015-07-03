@@ -4066,7 +4066,7 @@ a.green.button:hover {
     background-color: #33cc66;
 	color:#FFF;
     -webkit-animation-name: greenPulse;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
    /* -webkit-box-shadow: 0 0 18px #91bd09;*/
 }
