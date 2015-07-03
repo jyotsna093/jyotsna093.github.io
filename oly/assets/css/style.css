@@ -1680,7 +1680,7 @@ input[type=file]:focus, input[type=radio]:focus, input[type=checkbox]:focus {
 	text-decoration: none;
 	opacity: 0.7;
 }
- .touch{ display:block; height:60px; width:200px; margin-top:60px; margin-left:-52px; position:relative; color:#FFF; text-align:center; font-size:16px;}
+ .touch{ display:block; height:60px; width:200px; margin-top:60px; margin-left:-52px; position:relative; color:#FFF; text-align:center; font-size:16px; }
 
 .rev-big {
 	font-size: 58px;
@@ -4052,22 +4052,27 @@ ol.commentlist {
 	
 }
 @-webkit-keyframes greenPulse {
-    from { background-color: #749a02; -webkit-box-shadow: 0 0 0 #333; }
-to { background-color: #91bd09; }
+    from { background-color: #749a02; -webkit-box-shadow: 0 0 0 #333; 	}
+
 }
 
 a.green.button {
-    background-color:#FFF;
+border-style:solid;
+    border-color: #fff;
+	border-width:2px;
+	background-color: transparent;
+  /*  background-color:#FFF;*/
     border-radius: 0.5em;
-    color:#000;
+    color:#fff;
     padding:20px; 22px 20px 22px;
     text-decoration: none;
 }
 
 a.green.button:hover {
-    background-color: #33cc66;
-	color:#FFF;
-    -webkit-animation-name: greenPulse;
+	background:#FFF;
+      border-color:#33cc66;
+	color:#33cc66;
+    -webkit-animation-name: Pulse;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
    /* -webkit-box-shadow: 0 0 18px #91bd09;*/
