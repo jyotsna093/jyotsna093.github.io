@@ -25,7 +25,13 @@
  */
 
 /* Fonts */
-
+.carousel-content {
+    color:black;
+    display:flex;
+	padding-top:20px;
+    align-items:center;
+	
+}
 .middleDiv {
 	  margin: auto;
 	  
@@ -50,7 +56,7 @@
 .thin { font-family: myFirstFont1; font-weight: 300; }
 
 input,
-body { font-family: myFirstFont; font-weight: 400; }
+body { font-family: myFirstFont; font-weight: 400; margin:0px 0px 0px 0px; padding:0px;}
 	strong { font-family: myFirstFont; font-weight: 700; }
 
 	/* Global & Helpers */
@@ -115,7 +121,8 @@ body { font-family: myFirstFont; font-weight: 400; }
 	.img-responsive-full { max-width: 100%; width: 100%; }
 	.img-circle { -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; overflow:hidden;  }
 
-	.section { min-height: 50px; padding-top: 30px; padding-bottom: 30px; position: relative; text-align: center; }
+	.process
+	 { min-height: 50px; padding-top: 30px; padding-bottom: 30px; position: relative; text-align: center; }
 	.wrapper { width: 70%; margin: 0 auto; }
 	.container { z-index: 1; position: relative; }
 	.icon-active { color: #f8981d; }
@@ -196,7 +203,7 @@ backface-visibility: hidden;
 	.navigation-toggle .icon-bar+.icon-bar { margin-top: 4px; color:#66cc99; }
 
 	/* Elements */
-	.sub-title { font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
+	.sub-title { font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px; min-height:600px;}
 		.sub-title1 {font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px; float:left;}
 		.sub-title2 { font-weight: 300;  color:#666; padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
 	.well { border:none; border-top: 2px solid #f8981d; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; position: relative; padding-left: 60px; }
@@ -656,14 +663,14 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	position: relative;
 	margin:0 auto;
 	width: 56%;
-	min-height:300px;
+	min-height:360px;
 	padding-bottom:20px;
 	left: 0;
 	right: 0;
 	text-align: center;
-	background-color:#fff;
-	opacity:0.9;
-	
+	/*background-color:#fff;
+	opacity:0.9;*/
+	background-color:rgba(255,255,255,0.9);
 	margin-top:200px;
 }
 
@@ -680,9 +687,12 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 	padding-top:20px;
 	padding-bottom:20px;
 }
-.oly{ height:100px;opacity:1000;
-    filter:alpha(opacity=40);
-    z-index: 1000;}
+.oly{ 
+/*background:url(../img/home/olympia.gif);*/
+height:100px;
+width::auto;
+    z-index: 1000;
+	}
 .arrow{
 	height:100px;
 
@@ -728,14 +738,15 @@ input[type="text"].wpcf7-not-valid, input[type="email"].wpcf7-not-valid, input[t
 }
 
 .testi{
-	padding-top:30px;
+	padding-top:0px;
 	position:relative;
 	width:100%;
+	
 }
 
 .testi_inr{
 	position:relative;
-	margin:0 auto;
+	margin:20 auto;
 	width:100%;
 	text-align:right;
 }
@@ -1819,7 +1830,7 @@ position:relative; right:-825px;
     padding: 10px;
 }
 	#h { font-size: 36px; font-weight: 300; line-height:26px; display: block; color:#FFF; }
-h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
+h5 { font-size: 18px; font-weight: 300; display: block; }
 .testi_center{
 	display:none;
 }
@@ -2222,11 +2233,29 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 		#h { font-size: 30px; font-weight: 300; display: block; color:#FFF; line-height:20px; }
 		#hs{font-size: 30px; font-weight: 300; display: block; padding-left:0px;}
 	.sub-title { font-weight: 300;  padding: 0px 0px 8px 0px; font-family:myFirstFont; text-align:center;}
-	.sub-title1 { font-weight: 300;  padding: 0px 0px 0px 0px; font-family:myFirstFont; text-align:center;}
+	.sub-title1 { font-weight: 300;  padding: 0px 0px 0px 0px; font-family:myFirstFont; text-align:center; }
 	.sub-title2 { font-weight: 300;  padding: 0px 0px 8px 0px; font-family:myFirstFont; font-size:24px;}
 	/*.ftr_hide{
 		display:none;
 	}*/
+	
+/*	.testi{
+		display:none;
+	}*/
+	
+.mid_box1{ 
+    
+	font-size:20px;
+	color:#fff;	
+	position:relative;
+	width:100%;
+	height:600px;
+	text-align:left;
+	/*opacity: 0.1;*/
+    /* For IE8 and earlier */
+	background:url(../img/monam.png) center no-repeat;
+
+	}
 .btns{
 	font-family:myFirstFont2;
 	font-weight:bold;
@@ -2273,7 +2302,7 @@ backface-visibility: hidden;}*/
 	padding-left:50px;
 	padding-top:60px;
 }
-h5 { font-size: 18px; font-weight: 300; display: block; line-height:14px; }
+h5 { font-size: 18px; font-weight: 300; display: block; line-height:20px; }
 
 }
 
@@ -2290,7 +2319,7 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:14px; }
 	padding-left:20px;
 	padding-top:40px;
 }
-h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
+h5 { font-size: 18px; font-weight: 300; display: block; line-height:20px; }
 
 	/*.section {
 		padding: 35px 0;
@@ -2503,7 +2532,7 @@ h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
 
 /* Tablet device Landscape 1024px and 768px */
 @media (max-width: 1024px) and (min-width: 768px) {
-h5 { font-size: 18px; font-weight: 300; display: block; line-height:16px; }
+h5 { font-size: 18px; font-weight: 300; display: block; line-height:20px; }
 .navigation-brand .brand-logo {
 		-webkit-transform: scale(0.8);
 		-moz-transform: scale(0.8);
